@@ -71,7 +71,7 @@ form
 ## Prontas para o exercício? 
 <img src="https://media.giphy.com/media/dWlWuTFzXbBXtcpKXF/giphy.gif">
 
-# Exercício 31/10
+# Exercícios
 
 ## Landpage responsiva
 
