@@ -82,7 +82,7 @@ Use sua criatividade, você pode abordar o assunto que quiser!
 
 1 - Sua landpage deverá ter os itens que aprendemos na aula:
  - NavBar, Carrossel, Menu, Card, Modal, Form
- <img src="/src/assets/NavBar.gif">
+ <img src="src/assets/NavBar.gif">
  
 
 2 - Usar uma fonte do goolgle fontes ou equivalente:
