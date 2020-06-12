@@ -21,7 +21,6 @@ E muito mais!
 
 ## Desvantagens
 Excesso de padronização
-Solução caseira pode ser melhor
 
 ## Quem usa Bootstrap hoje?
 Pesquisas afirmam que cerca de 7 milhões de sites utilizam o Bootstrap dentre eles:
