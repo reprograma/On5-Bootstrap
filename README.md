@@ -1,5 +1,5 @@
 ## O que é um framework? 
-Basicamente, é um template com diversas funções que podem ser usadas pelo desenvolvedor. Com ele, é desnecessário gastar tempo para reproduzir a mesma função em diferentes projetos, auxiliando em um gerenciamento ágil de projetos. Em outras palavras, ele é uma estrutura base, uma plataforma de desenvolvimento, como uma espécie de arcabouço. Ele contém ferramentas, guias, sistemas e componentes que agilizam o processo de desenvolvimento de soluções.
+É uma estrutura base, uma plataforma de desenvolvimento ele contém ferramentas, guias, sistemas e componentes que agilizam o processo de desenvolvimento de soluções. Basicamente, é um template com diversas funções que podem ser usadas pelo desenvolvedor. Com ele, é desnecessário gastar tempo para reproduzir a mesma função em diferentes projetos, auxiliando em um gerenciamento ágil de projetos.
 
 Assim um Framework tem como principal objetivo resolver problemas recorrentes com uma abordagem genérica, permitindo ao desenvolvedor focar seus esforços na resolução do problema em si, e não ficar reescrevendo software. 
 
