@@ -1,6 +1,7 @@
 # O que é um framework? 
-Um framework em desenvolvimento de software, é uma abstração que une códigos comuns entre vários projetos de software provendo uma funcionalidade genérica. Um framework pode atingir uma funcionalidade específica, por configuração, durante a programação de uma aplicação. Ao contrário das bibliotecas, é o framework quem dita o fluxo de controle da aplicação. 
-Wikipédia
+Basicamente, é um template com diversas funções que podem ser usadas pelo desenvolvedor. Com ele, é desnecessário gastar tempo para reproduzir a mesma função em diferentes projetos, auxiliando em um gerenciamento ágil de projetos. Em outras palavras, ele é uma estrutura base, uma plataforma de desenvolvimento, como uma espécie de arcabouço. Ele contém ferramentas, guias, sistemas e componentes que agilizam o processo de desenvolvimento de soluções.
+
+Assim um Framework tem como principal objetivo resolver problemas recorrentes com uma abordagem genérica, permitindo ao desenvolvedor focar seus esforços na resolução do problema em si, e não ficar reescrevendo software. 
 
 
 # O que é Bootstrap?
@@ -81,7 +82,7 @@ Use sua criatividade, você pode abordar o assunto que quiser!
 
 1 - Sua landpage deverá ter os itens que aprendemos na aula:
  - NavBar, Carrossel, Menu, Card, Modal, Form
- <img src="/src/assets/NavBar.gif">
+ <img src="src/assets/NavBar.gif">
  
 
 2 - Usar uma fonte do goolgle fontes ou equivalente:
