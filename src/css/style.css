@@ -6,7 +6,9 @@
     object-fit: cover;
     height: 400px;
 }
-
+.img-logo{
+    width: 100px;
+}
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
