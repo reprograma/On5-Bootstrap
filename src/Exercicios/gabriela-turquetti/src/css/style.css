@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+.background {
+   background-color: black;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-texto {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.fonte-titulo-card {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+.about {
+    width: 90%;
+    background-color: black;
+    
+}
+
+.about-img {
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+}
+
+.about-description {
+    width: 90%;
+    margin-left: 100px;
+    color: white;
+    text-align: justify;
+}
+
+.col-md-6 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+.col-sm-6 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+.title-devtools {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.card {
+    align-items: center;
+}
+.fonte-texto-card-footer {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+#footer-redes {
+    font-size: 2em;
+}
