@@ -1,0 +1,121 @@
+.background {
+   background-color: rgb(250, 250, 250); 
+}
+
+.img-logo {
+    width: 200px;
+}
+
+.navbar-fonte{
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.imagem-carrossel-esquerda {
+    object-fit: cover;
+    object-position: right;
+    height: 450px;
+}
+
+.imagem-carrossel-direita {
+    object-fit: cover;
+    object-position: left;
+    height: 450px;
+}
+
+.fonte-texto {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+}
+
+.texto-cursivo {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 30px;
+}
+
+.título-cursivo {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #956479;
+}
+
+.box-biografia,
+.box-video {
+    background-image: url(../assets/background-flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-biografia-textos{
+    max-width: 70%;
+    margin: auto;
+}
+
+.background-cards {
+    background-color: #e1ccd5; 
+ }
+
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.imagem-card:hover {
+    -webkit-filter: sepia(40%);
+    filter: sepia(40%);
+    filter: sepia(40%); /* IE */
+}
+
+.fonte-titulo-card {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color: #956479;
+    text-align: center;
+}
+
+.video {
+    width:70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video-texto {
+    color: #956479;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.fonte-texto-footer {
+    color: #7c7c7c;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-redes {
+    font-size: 2em;
+}
+
+.footer-redes-icon {
+    color: #956479;
+
+}
+
+.footer-redes-icon:hover{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.copyright {
+    color: #956479;
+    font-size:11px;
+    font-weight: 400;
+}
