@@ -2,6 +2,11 @@
    background-color: #385eff;
 }
 
+.fas {
+    color: white;
+    font-size: 30px;
+}
+
 .nav-link {
     color: white;
 }
