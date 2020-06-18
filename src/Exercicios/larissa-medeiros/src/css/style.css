@@ -1,0 +1,61 @@
+.background {
+   background-color: rgb(154, 206, 203);
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.fonte-texto {
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+}
+
+.fonte-titulo-card {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 20px;
+    color: rgb(80, 161, 157);
+}
+
+.fonte-texto-card-footer {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.btn {
+    background-color: rgb(80, 161, 157);
+    border-color:  rgb(80, 161, 157);;
+}
+
+.borda-card {
+    border-color: rgb(48, 48, 48);
+}
+
+#footer-redes {
+    font-size: 2em;
+}
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+    text-decoration: inherit;
+}
