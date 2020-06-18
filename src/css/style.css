@@ -2,9 +2,6 @@
    background-color: lightblue; 
 }
 
-.nav-nav{
-    
-}
 
 .imagem-carrossel {
     object-fit: cover;
@@ -14,11 +11,11 @@
 h5{
     color:black;
     font-weight: bold;
-p{
-    color:black;   
-    
 }
 
+p{
+    color: black;
+}
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 300;
