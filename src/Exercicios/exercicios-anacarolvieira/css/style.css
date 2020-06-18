@@ -1,18 +1,35 @@
+body{
+    font-family: 'MuseoModerno', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
 .background {
    background-color:#7d7270; 
 }
 
 .btn-danger {
     color: #fff;
-    background-color: rgb(131, 206, 131);
-    border-color: rgb(131, 206, 131);
+    background-color:black;
+    border-color:rgba(215, 233, 215, 0.603);
 }
 
 .nav {
     display:flex;
-    background-color: rgb(131, 206, 131);
+    background-color:black;
+
+    font-family: 'MuseoModerno', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
 }
 
+.nav-pills .nav-link.active{
+    background-color: black;
+    color:white;
+}
 .imagem-carrossel {
     object-fit: cover;
     height: 50%;
@@ -28,14 +45,15 @@
 }
 
 .card{
-    background-color: rgb(126, 126, 126);
+    background-color:black;
+    color:white;
     margin-left: 4%;
 }
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
     font-style: normal;
-    color:blueviolet;
+    color:gray;
 }
 
 .fonte-titulo-card {
