@@ -2,11 +2,35 @@
    background-color:#7d7270; 
 }
 
+.btn-danger {
+    color: #fff;
+    background-color: rgb(131, 206, 131);
+    border-color: rgb(131, 206, 131);
+}
+
+.nav {
+    display:flex;
+    background-color: rgb(131, 206, 131);
+}
+
 .imagem-carrossel {
     object-fit: cover;
     height: 50%;
 }
 
+.carousel-inner
+{max-height: 49vw
+}
+
+.meus-cards{
+    display: flex;
+   margin-top: 4%;
+}
+
+.card{
+    background-color: rgb(126, 126, 126);
+    margin-left: 4%;
+}
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
