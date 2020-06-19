@@ -1,36 +1,60 @@
 .background {
-   background-color:#7d7270; 
+   background-color: rgb(134, 126, 182); 
 }
 
 .imagem-carrossel {
     object-fit: cover;
     height: 400px;
 }
+.nav-nav{
+    align-items: flex-end;
+    padding: 0px;
+    align-items: flex-end;
+}
+.hamburger{
+    display:none;
+}
 
+
+.collapse{
+    margin-left: 400px;
+
+}
+
+  
+}
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
     font-style: normal;
-    color:darkred;
+    color:rgb(73, 3, 56);
 }
 
 .fonte-titulo-card {
     font-family: 'McLaren', cursive;
     font-size: 20px;
-    color: darkblue;
+    color: rgb(65, 65, 150);
+    text-align: center;
 }
 
 .fonte-texto-card-footer {
     font-family: 'McLaren', cursive;
     font-size: 15px;
+    text-align: center;
 }
+
+
 .imagem-card {
     object-fit: cover;
-    height: 286px;
+    height:186px;
+
 }
 
 .borda-card {
     border-color: darkblue;
+}
+.#{
+    color: rgb(73, 3, 56);
 }
 
 #footer-redes {
