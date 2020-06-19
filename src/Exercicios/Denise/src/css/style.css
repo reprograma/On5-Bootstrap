@@ -4,98 +4,154 @@ body{
     box-sizing: border-box;
 }
 
+/*Trocando a cor do menu*/
 #nav-nav{
-    background-color: #DB7093;
+    background-color: #be5e7a;
 }
 
-.background {
-   background-color:#7d7270; 
+#nav-titulo{
+    margin: 0px;
+    transform: rotate(350deg);
+    font-family: 'McLaren', cursive;
+    font-size: 1.2em;
+    font-weight: 400;    
 }
 
-.imagem-carrossel {
-    object-fit: cover;
-    height: auto;
+/*Plano de fundo do carrossel e Sobre*/
+#Carrossel{
+    background: url(../assets/Fundo.jpg) center no-repeat ;
+    max-width: 100%;
+    background-size: cover;
 }
 
-.carousel-caption{   
+/*Responsividade imagens do carrosel*/
+.imagem-carrossel{
+    max-width: 70%;
+    margin: 0% 15%;
+}
+
+.carousel-indicators{
+    display: none
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #2e044b;
+    border-radius: 20px;
+}
+
+/*Ajustes do texto do carrossel*/
+.carousel-caption{
     text-align: right;
-    color: #2e044b    
+    max-width: 20%;
+    text-align: inherit;
+    font-size: 1em;
+    color: #2e044b;   
 }
 
-.carousel-indicators li{
-    background-color: #2e044b; 
-    height: 5px;   
-}
-    
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #2e044b; 
+/*Formatação Sobre Geral*/
+#SobreOPole{
+    font-size: 1.5em;
+    font-weight: 900;
 }
 
 .fonte-texto {
     font-family: 'McLaren', cursive;
+    font-size: 0.8em;
     font-weight: 400;
     font-style: normal;
     color:#2e044b ;
-    padding: 0px    ;
+    padding: 0px;
+    margin: 0% 10%;
 }
 
-.container-fluid{
-    background-color: #DB7093;
+/*Formatação Sobre Mobile*/
+#SobreOPoleMobile{
+    font-size: 1em;
+    color: #2e044b;
+    font-weight: 900;
 }
 
-.container-fluid-Sobre, .container-fluid-SobreMobile{
-    background-color: #FFDDE9;
-}
-
-article{
-    padding: 20px 50px; 
-}
-
-.fonte-titulo-card {
+.fonte-textoMobile{
     font-family: 'McLaren', cursive;
-    font-size: 20px;
+    font-size: 0.8em;
+    margin: 0% 10%;
     color: #2e044b;
 }
 
-.btn{
-    background-color: #DB7093;
-    border-color: #DB7093;
+.container-fluid{
+    background-color: #d6d1d6;
+
 }
 
-.fonte-texto-card-footer {
+/*Formatação dos cards*/
+.card-title{
+    font-size: 1em;
     font-family: 'McLaren', cursive;
-    font-size: 15px;
-}
-.imagem-card {
-    object-fit: cover;
-    height: 286px;
+    color:#2e044b ;
+    font-weight: 900;
 }
 
-.borda-card {
-    border-color: #2e044b;
+.card-text{
+    font-size: 0.7em;
+    font-family: 'McLaren', cursive;
+    color:#2e044b ;
+    text-align: justify;
 }
 
+.btn-primary{
+    font-size: 0.7em;
+    font-family: 'McLaren', cursive;
+    background-color: #be5e7a;
+    border-color: #be5e7a;
+}
+
+/*Formatação texto depoimento*/
 .CardTitleDepo, .ItemDepoimento {
     font-family: 'Indie Flower';
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 0.8em;
+    font-weight: bold;
     text-align: justify;
     font-style: normal;
     color:#2a292b ;
-    padding: 10px  120px  ;
-    background-color: #e4e4e4;
+    padding: 05px  20px  ;
+    background-color: #e4e4e4;    
 }
 
-#footer-redes {
-    font-size: 2em;
-}
-
+/*Rodapé*/
 .container-fluid-footer {
-    background-color: #FFDDE9;
+    font-size: 0.8em;
+    background-color: #be5e7a;
 }
 
-@media (min-width: 320px) and (max-width: 959.98px) {
-    #main #content-wrap {
-       padding-bottom: 0 !important;
+.fonte-texto-card-footer, .fonte-texto-footer {
+    font-family: 'McLaren', cursive;
+    font-size: 0.8em;
+}
+
+p{
+    margin: 0px;
+}
+
+
+@media (min-width: 1400px){
+    #nav-titulo{
+        margin: 0px;
+        transform: none
     }
+
+    #nav-nav{
+        width: 100%;
+       max-width: 100%;
+       flex-flow: column;  
+    }
+
+    .container-fluid-geral{
+        max-width: 60%;
+        margin: 0% 20%;
+    }
+
+    .row{
+        flex-flow: nowrap;
+    }
+
 }
