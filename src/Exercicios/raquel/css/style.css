@@ -1,0 +1,105 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+.img-logo {
+    width: 200px;
+}
+
+.background-navbar {
+    background-color: white; 
+}
+
+.fonte-navbar {
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(59, 169, 177);
+}
+
+.fonte-navbar:hover {
+    color:rgb(35, 100, 150);
+}
+
+.fas {
+    color:rgb(35, 100, 150);
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-carousel {
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.fonte-texto {
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(59, 169, 177);
+}
+
+.fonte-subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+}
+
+.fonte-titulo-card {
+    font-size: 20px;
+    color: rgb(59, 169, 177);
+    font-weight: bold;
+}
+
+.fonte-texto-card {
+    font-size: 18px;
+}
+
+.fonte-texto-card-footer {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.btn-card {
+    background-color: rgb(59, 169, 177);
+    color: white;
+    font-weight: bold;
+}
+
+.btn-card:hover {
+    background-color: rgb(103, 224, 233);
+    color: white;
+}
+
+.row {
+    margin-bottom: 4rem;
+}
+
+.fonte-texto-footer {
+    color: white;
+}
+
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: rgb(59, 169, 177);
+}
+
+.background-footer {
+    background-color: rgb(59, 169, 177);
+}
+
+#footer-redes {
+    font-size: 2em;
+    color: white;
+} 
+
+.copyright {
+    padding-bottom: 100px;
+}
