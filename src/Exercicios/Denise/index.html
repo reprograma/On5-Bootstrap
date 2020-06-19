@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--Fonte Indie Flower-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <title>Pole Wings</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="nav-nav" class="navbar navbar-expand-lg navbar-light">
+            <a id="nav-titulo" class="navbar-brand" href="#">Pole Wings</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link fonte-texto" href="#SobreOPole">Sobre o pole <span class="sr-only">(página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fonte-texto" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Modalidades
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#PoleFitness">Fitness ou Acrobático</a>
+                            <a class="dropdown-item" href="#PoleSensual">Sensual</a>
+                            <a class="dropdown-item" href="#PoleContemporaneo">Contemporâneo</a>
+                            <a class="dropdown-item" href="#PoleArt">Art</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto d-none d-sm-block" href="#carouselDepoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#" data-toggle="modal" data-target="#modalContato">Fale
+                            conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class= "container-fluid-geral">
+
+        <!--CARROSSEL-->
+        <main>
+            <section id="Carrossel">
+                <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner FotosIniciais">
+                        <div class="carousel-item ItemInicial active">
+                            <img class="d-block w-80 imagem-carrossel" src="./src/assets/SlidePrinc.jpg" alt="Primeiro Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>O que é Pole dance?</h5>
+                                <p>Pole dance é uma forma de dança e ginástica</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ItemInicial">
+                            <img class="d-block w-80 imagem-carrossel" src="./src/assets/Slide2.1.jpg" alt="Segundo Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Estrutura corporal</h5>
+                                <p>A estrutura corporal ideal é a sua!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ItemInicial">
+                            <img class="w-100 imagem-carrossel" src="./src/assets/Idosa.jpg" alt="Terceiro Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Idade</h5>
+                                <p>Qual a sua idade hoje? Idade perfeita!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ItemInicial">
+                            <img class="w-100 imagem-carrossel" src="./src/assets/Crianca.jpg" alt="Quarto Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Crianças</h5>
+                                <p>Elas irão se divertir enquanto se exercitam.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ItemInicial">
+                            <img class="w-100 imagem-carrossel" src="./src/assets/Mulher.jpg" alt="Quarto Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Crie asas conosco</h5>
+                                <p>O pole é para mim, para você, para nós!</p>
+                            </div>
+                        </div>                      
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+
+                <div class="container-fluid-SobreMobile .d-block d-sm-none">
+                    <article>
+                        <h1 id="SobreOPoleMobile" class="text-center fonte-textoMobile pt-0"> Sobre o pole</h1>
+                        <p class="text-justify text-secundary fonte-textoMobile">Pole dance é uma atividade que trabalha o condicionamento físico e o equilíbrio de quem pratica.
+                        Os movimentos do pole envolvem acrobacias, gestos do ballet, da ginástica olímpica e da dança contemporânea.
+                        Seus treinos, com maior ênfase na região das costas e do abdômen, promovem a tonificação muscular e o ganho de massa magra. 
+                        </p>                    
+                    </article>
+                </div>
+        
+                <div class="container-fluid-Sobre d-none d-sm-block">
+                    <article>
+                        <h1 id="SobreOPole" class="text-center fonte-texto pt-0"> Sobre o pole</h1>
+                        <p class="text-justify text-secundary fonte-texto">O Pole dance é originário da Índia e das
+                            atividades circenses
+                            dos Estados Unidos da década de 1920. Pole dance é uma atividade que trabalha o condicionamento físico e o equilíbrio de quem pratica. A primeira escola especializada em pole dance no Brasil foi inaugurada em março 
+                            de 2008, em Curitiba.</p>
+                        <p class="text-justify text-secundary fonte-texto">Os movimentos do pole envolvem acrobacias
+                            (subidas, descidas
+                            e saltos na barra), além de emprestar gestos do ballet, da ginástica olímpica e da dança
+                            contemporânea, exibindo
+                            posições estáticas e ágeis, com ou sem a barra como apoio.</p>
+
+                        <p class="text-justify text-secundary fonte-texto">Seus treinos promovem a tonificação muscular
+                            e o ganho de massa
+                            magra por meio do desenvolvimento de força em todo o corpo, com foco na região das costas e do
+                            abdômen. Ritmo e
+                            expressão corporal também são desenvolvidos durante as aulas.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <!--Cards-->
+        <section>
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <!--Pole Fitness-->
+                    <div id="PoleFitness" class="card borda-card m-3" style="width: 32rem">
+                        <img class="card-img-top imagem-card" src="./src/assets/Fitness.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card ">Pole Fitness ou Acrobático</h5>
+                            <p class="card-text fonte-texto-card-footer">Modalidade esportiva realizada através de movimentos ginásticos em mastro vertical.
+                            </p>
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#ModalPoleFitness">
+                                Mais detalhes
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalPoleFitness" tabindex="-1" role="dialog"
+                                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Pole Fitness ou Acrobático
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Esta modalidade trabalha força, flexibilidade e equilíbrio.
+                                                Perfeito para você que quer fazer uma atividade física, que queima MUITAS
+                                                calorias
+                                                mas não gosta de academia.</p>
+                                            <p>Benefícios:
+                                                É uma atividade de alto desempenho que ajuda a tonificar os músculos além de
+                                                melhorar a lateralidade e a consciência corporal do praticante.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pole Sensual-->
+                    <div id="PoleSensual" class="card borda-card m-3" style="width: 32rem">
+                        <img class="card-img-top imagem-card" src="./src/assets/Sensual2.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card ">Pole Sensual</h5>
+                            <p class="card-text fonte-texto-card-footer">Modalidade que trabalha a sensualidade e
+                                flexibilidade através
+                                da dança e movimentos ginásticos.
+                            </p>
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#ModalPoleSensual">
+                                Mais detalhes
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalPoleSensual" tabindex="-1" role="dialog"
+                                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Pole Sensual</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Esta modalidade trabalha a sensualidade e flexibilidade.
+                                                Você que deseja trabalhar seu lado mulherão empoderada certamente vai se
+                                                identificar.</p>
+                                            <p>Benefícios:
+                                                Auxilia no desenvolvimento de auto-estima, auto-confiança, amor próprio,
+                                                sensualidade
+                                                e consciência corporal, além de te ajudar a andar com 'aquele' saltão.
+                                                Sinta-se empoderada!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pole Contemporâneo-->
+                    <div id="PoleContemporaneo" class="card borda-card m-3" style="width: 32rem">
+                        <img class="card-img-top imagem-card" src="./src/assets/Contemporaneo2.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card ">Pole Contemporâneo</h5>
+                            <p class="card-text fonte-texto-card-footer">Modalidade que alia o uso da barra com uma
+                                coreografia muito artística
+                                e faz um lindo uso do corpo.</p>
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                data-target="#ModalPoleContemporaneo">
+                                Mais detalhes
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalPoleContemporaneo" tabindex="-1" role="dialog"
+                                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Pole Contemporâneo</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Esta modalidade trabalha força, flexibilidade e expressão corporal.
+                                                Tem a fluidez, leveza e linguagem corporal de uma dança contemporânea com
+                                                coreografias inteiramente
+                                                interpretadas através do corpo associadas as poses do Pole Acrobático.
+                                                Excelente para quem gosta de
+                                                danças contemporâneas.</p>
+                                            <p>Benefícios:
+                                                É uma atividade de alto desempenho que tonifica os músculos além de
+                                                desenvolver a lateralidade e a consciência corporal do praticante.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Pole Art-->
+                    <div id="PoleArt" class="card borda-card m-3" style="width: 32rem">
+                        <img class="card-img-top imagem-card" src="./src/assets/Art.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card ">Pole Art</h5>
+                            <p class="card-text fonte-texto-card-footer">Esta é a modalidade mais artística e dançada do
+                                pole.</p>
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalPoleArt">
+                                Mais detalhes
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalPoleArt" tabindex="-1" role="dialog"
+                                aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="TituloModalCentralizado">Pole Art</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Esta modalidade incorpora estilos de dança, além de atuar com a força e
+                                                flexibilidade
+                                                de seus atletas. O Pole Art incorpora algum estilo de dança, criando
+                                                performances
+                                                de expressividade artística.</p>
+                                            <p>Benefícios:
+                                                É uma atividade de alto desempenho que tonifica os músculos,
+                                                desenvolve a lateralidade e a consciência corporal do praticante, além de
+                                                estimular a criatividade
+                                                de seus artistas.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+        </section>
+        <!--Modal-->
+        <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- FORM -->
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Nome</label>
+                                <input type="Nome" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Pole Wings">
+                                <label for="exampleFormControlInput2">Email</label>
+                                <input type="Nome" class="form-control" id="exampleFormControlInput1"
+                                placeholder="polewings@pole.com">
+                                <label for="exampleFormControlInput3">Telefone (de preferência WhatsApp)</label>
+                                <input type="Nome" class="form-control" id="exampleFormControlInput1"
+                                placeholder="11912345678">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Selecione uma modalidade</label>
+                                <select class="form-control" id="exampleFormControlSelect1" placeholder="">
+                                    <option>Fitness/Acrobatico</option>
+                                    <option>Sensual</option>
+                                    <option>Contemporâneo</option>
+                                    <option>Art</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensagem</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--CARROSSEL DEPOIMENTOS-->
+            <div id="carouselDepoimentos" class="carousel slide d-none d-sm-block" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item ItemDepoimento active">
+                    <h4 class="card-title CardTitleDepo fonte-titulo-card ">Depoimento de: Talita Antunes - 
+                        "Fui a aula experimental e fiquei assustada. Meus Deus! Precisava usar shorts curto, 
+                        logo eu que morria de vergonha das celulites nas minhas pernas! Começou a aula e eu só pensava... "Não é para mim!" Decidi tentar por um mês, esta seria minha última tentativa
+                        de fazer alguma atividade física pois não me adaptava a nenhuma. Fazem dois anos que faço
+                        pole, 2 de 1.000, não pararei nunca mais!"</h4>
+                </div>
+                <div class="carousel-item ItemDepoimento">
+                    <h4 class="card-title CardTitleDepo fonte-titulo-card ">Depoimento de: Isadora Ribeiro - 
+                        "Estava com a auto estima lá embaixo, havia acabado de sair de um péssimo relacionamento, 
+                        precisava de algo para me sentir "mulher" de novo. Comecei a frequentar as aulas e as meninas 
+                        super carinhosas sempre me botando pra cima. Hoje me sinto linda e me aceito como sou, sei que 
+                        meu físico não me limita e sim minha mente. Amo esta escola e as professoras. Vocês me salvaram!"</h4>
+                </div>
+                <div class="carousel-item ItemDepoimento">
+                    <h4 class="card-title CardTitleDepo fonte-titulo-card ">Depoimento de: Kátia Silva - 
+                        "Com apenas quatro meses de aulas já vejo diversas mudanças em meu corpo, minha disposição melhorou
+                             bastante também. Estou amando."</h4>
+                </div>               
+            </div>
+
+    </div>
+
+    <footer class="container-fluid-footer pt-2">
+        <div>
+            <p class="text-center fonte-texto-card-footer">Nossas redes sociais</p>
+        </div>
+        <div class="row justify-content-center m-0" id="footer-redes">
+            <div class="m-1 fab fa-facebook-square"><i></i></div>
+            <div class="m-1 fab fa-twitter"></div>
+            <div class="m-1 fab fa-instagram"></div>
+            <div class="m-1 fab fa-whatsapp-square"></div>
+        </div>
+        <div class="text-center fonte-texto-footer pt-1">
+            <p>©Copyright Denise Lopes <time datetime="2020">2020</time></p>
+            <p>All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
