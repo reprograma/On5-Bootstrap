@@ -1,0 +1,83 @@
+body{font-family: 'MuseoModerno', cursive;
+}
+
+.background {
+   background-color:#7d7270; 
+}
+
+.btn-danger {
+    color: #fff;
+    background-color:black;
+    border-color:rgba(215, 233, 215, 0.603);
+
+.navbar-nav mr-auto mt-2 mt-lg-0{
+    background-color: gray;
+    }
+
+#nav {
+    display:flex;
+    background-color:black
+
+    font-family: 'MuseoModerno', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
+}
+
+.nav a :visited a:hover{
+    border-color: grey;
+}
+
+.nav-pills .nav-link.active{
+    background-color: black;
+    color:white;
+}
+
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 50%;
+}
+
+.carousel-inner
+{max-height: 49vw
+}
+
+.meus-cards{
+    display: flex;
+   margin-top: 4%;
+}
+
+.card-body{
+    background-color:black;
+    color:white;}
+
+.fonte-texto {
+    font-family: 'McLaren', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:gray;
+}
+
+.fonte-titulo-card {
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    color: lightgreen;
+}
+
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color:li;
+}
+
+
+
+#footer-redes {
+    font-size: 2em;
+} 
