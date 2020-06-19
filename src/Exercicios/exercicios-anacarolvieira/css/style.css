@@ -1,8 +1,4 @@
 body{
-    font-family: 'MuseoModerno', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif;
-font-family: 'Roboto', sans-serif;
 }
 
 .background {
@@ -13,17 +9,24 @@ font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color:black;
     border-color:rgba(215, 233, 215, 0.603);
-}
 
-.nav {
+.navbar-nav mr-auto mt-2 mt-lg-0{
+    background-color: gray;
+    }
+
+#nav {
     display:flex;
-    background-color:black;
+    background-color:black
 
     font-family: 'MuseoModerno', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Roboto', sans-serif;
     
+}
+
+.nav a :visited{
+    border-color: grey;
 }
 
 .nav-pills .nav-link.active{
@@ -44,11 +47,10 @@ font-family: 'Roboto', sans-serif;
    margin-top: 4%;
 }
 
-.card{
+.card {
     background-color:black;
-    color:white;
-    margin-left: 4%;
-}
+    color:white;}
+
 .fonte-texto {
     font-family: 'McLaren', cursive;
     font-weight: 400;
