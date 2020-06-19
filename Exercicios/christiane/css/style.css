@@ -1,10 +1,11 @@
 .background {
-   background-color:#7d7270; 
+   background-color: whitesmoke;
 }
 
 .imagem-carrossel {
     object-fit: cover;
     height: 400px;
+  
 }
 
 .fonte-texto {
@@ -17,12 +18,13 @@
 .fonte-titulo-card {
     font-family: 'McLaren', cursive;
     font-size: 20px;
-    color: darkblue;
+    color: darkred;
+    text-align: left;
 }
 
 .fonte-texto-card-footer {
     font-family: 'McLaren', cursive;
-    font-size: 15px;
+    font-size: 14px;
 }
 .imagem-card {
     object-fit: cover;
@@ -30,9 +32,36 @@
 }
 
 .borda-card {
-    border-color: darkblue;
+    border-color: darkorange;
+    border-style: double;
+ 
 }
 
 #footer-redes {
     font-size: 2em;
-} 
+}
+
+.btn-danger {
+    
+    color: white;
+    background-color: rgb(170, 26, 26);
+    text-transform: uppercase;
+    position: end;
+}
+
+.btn-primary {
+    background-color: gray;
+    border-color: black;
+}
+
+.btn-secondary {
+    background-color: gray;
+    border-color: black;
+    
+}
+
+
+
+
+
+
