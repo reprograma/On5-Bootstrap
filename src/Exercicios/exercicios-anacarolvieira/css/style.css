@@ -66,9 +66,6 @@ font-family: 'Roboto', sans-serif;
     color: lightgreen;
 }
 
-.fonte-texto-card-footer {
-    font-family: 'McLaren', cursive;
-    font-size: 15px;
 }
 .imagem-card {
     object-fit: cover;
@@ -78,6 +75,8 @@ font-family: 'Roboto', sans-serif;
 .borda-card {
     border-color:li;
 }
+
+
 
 #footer-redes {
     font-size: 2em;
