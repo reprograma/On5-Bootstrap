@@ -1,0 +1,52 @@
+
+
+
+
+.background {
+   /* background-color:#7d7270; */
+    background-color: lightgray;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    width:640px; 
+    height:360px; }
+
+.imagem-carrossel {
+    object-fit: scale-down;
+    width:300px; 
+    height:300px; }
+
+
+.fonte-texto {
+    font-family: 'Raleway', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:darkred;
+}
+
+.fonte-titulo-card {
+    font-family: 'Raleway', cursive;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: 'Raleway', cursive;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: darkblue;
+}
+
+#footer-redes {
+    font-size: 2em;
+}
