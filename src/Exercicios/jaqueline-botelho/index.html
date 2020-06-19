@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <title>.:As 12 aldeias históricas com a Jaque:.</title>
+</head>
+
+
+<body>
+    <header>
+         <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand fonte-texto" href="#">Explorando as 12 Aldeias históricas de Portugal com a Jaque</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" 
+            id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item-item">
+                  <a class="nav-link fonte-texto" href="#">Home <span class="sr-only">
+                      (Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fonte-texto" href="#">Destaques</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fonte-texto" href="#" data-toggle="modal"
+                        data-target="#modalContato">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fonte-texto" href="#" 
+                    id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" 
+                        aria-haspopup="true" aria-expanded="false">
+                        Aldeias históricas</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Almeida</a></li>
+                        <li><a class="dropdown-item" href="#">Belmonte</a></li>
+                        <li><a class="dropdown-item" href="#">Castelo Mendo</a></li>
+                        <li><a class="dropdown-item" href="#">Castelo Novo</a></li>
+                        <li><a class="dropdown-item" href="#">Castelo Rodrigo</a></li>
+                        <li><a class="dropdown-item" href="#">Indanha-a-Velha</a></li>
+                        <li><a class="dropdown-item" href="#">Beira</a></li>
+                        <li><a class="dropdown-item" href="#">Marialva</a></li>
+                        <li><a class="dropdown-item" href="#">Monsanto</a></li>
+                        <li><a class="dropdown-item" href="#">Piodão</a></li>
+                        <li><a class="dropdown-item" href="#">Sortelha</a></li>
+                        <li><a class="dropdown-item" href="#">Trancoso</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+        <!--CARROSSEL-->
+        <main>
+          <section>
+              <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                  data-ride="carousel">
+                  <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img class="d-block w-100 imagem-carrossel" src="./src/assets/Belmonte.JPG" alt="Primeiro Slide">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>BELMONTE</h5>
+                              <p>Vista sobre a encosta oriental da Serra da Estrela</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-flex w-100 imagem-carrossel" src="./src/assets/Castelo novo.JPG" alt="Segundo Slide">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>CASTELO NOVO</h5>
+                              <p>Em plena alma da Serra da Gardunha</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <img class="d-block w-100 imagem-carrossel" src="./src/assets/idanha a velha.JPG" alt="Terceiro Slide">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>IDANHA-A-VELHA</h5>
+                              <p>Outrora existiu uma cidade romana (séc. I a.C.)</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./src/assets/monsanto.JPG" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MONSANTO</h5>
+                            <p>Presença humana desde o paleolítico</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./src/assets/piodao.JPG" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PIODÃO</h5>
+                            <p>Sinuosas e estreitas ruelas, escondem a história de Piódão</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./src/assets/sortelha.JPG" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>SORTELHA</h5>
+                            <p>Enclausuradas por um anel defensivo e vigiadas por um sobranceiro castelo do séc. XIII</p>
+                        </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                  </a>
+              </div>
+              <article>
+                  <h1 class="text-center fonte-texto pt-5"> Especial Aldeias!</h1>
+                  <p class="text-center text-secundary fonte-texto">Saiba tudo sobre 6 das 12 Aldeias históricas de Portugal!
+                  </p>
+                  <p class="text-center text-secundary fonte-texto pb-5">Uma viagem incrível com roteiro de 3 dias para ser transportado ao passado!</p>
+              </article>
+          </section>
+      </main>
+      <!--Cards-->
+      <section>
+          <div class="container-fluid bg-dark">
+              <div class="row justify-content-around">
+                  <div class="card borda-card m-3" style="width: 18rem">
+                      <img class="card-img-top imagem-card" src="./src/assets/monsanto em pe.JPG" alt="Imagem de capa do card">
+                      <div class="card-body">
+                          <h5 class="card-title fonte-titulo-card">Belmonte e Monsanto</h5>
+                          <p class="card-text fonte-texto-card-footer">
+                              Se encante!
+                          </p>
+                          <a href="#" class="btn btn-danger fonte-texto-card-footer">Ver mais</a>
+                      </div>
+                  </div>
+                  <div class="card borda-card m-3" style="width: 18rem">
+                      <img class="card-img-top imagem-card" src="./src/assets/piodao em pe.JPG" alt="Imagem de capa do card">
+                      <div class="card-body">
+                          <h5 class="card-title fonte-titulo-card">Castelo Novo e Piodão</h5>
+                          <p class="card-text fonte-texto-card-footer">
+                              Se perca nas vielas!
+                          </p>
+                          <a href="#" class="btn btn-danger fonte-texto-card-footer">Ver mais</a>
+                      </div>
+                  </div>
+                  <div class="card borda-card m-3" style="width: 18rem">
+                      <img class="card-img-top imagem-card" src="./src/assets/sortelha em pe.JPG" alt="Imagem de capa do card">
+                      <div class="card-body">
+                          <h5 class="card-title fonte-titulo-card">Idanha-a-Velha e Sortelha</h5>
+                          <p class="card-text fonte-texto-card-footer">
+                              Se surpreenda!
+                          </p>
+                          <a href="#" class="btn btn-danger fonte-texto-card-footer">Ver mais</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+      <!--Modal-->
+      <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-sm" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <!-- FORM -->
+                      <form>
+                          <div class="form-group">
+                              <label for="exampleFormControlInput1">Email</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1"
+                                  placeholder="name@example.com">
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlSelect1">Selecione o tipo de
+                                  comentário</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Dúvidas</option>
+                                  <option>Sugestōes</option>
+                                  <option>Elogios</option>
+                              </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                  comentário</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <footer class="container-fluid pt-5">
+      <div>
+          <p class="text-center fonte-texto-card-footer">Minhas redes sociais</p>
+      </div>
+      <div class="row justify-content-center m-1" id="footer-redes">
+          <div class="m-5 fab fa-facebook-square"><i></i></div>
+          <div class="m-5 fab fa-twitter"><i></i></div>
+          <div class="m-5 fab fa-instagram"><i></i></div>
+      </div>
+      <div class="text-center fonte-texto-footer pt-1">
+          <p>Copyrigth @ Jaqueline Botelho <time datetime="2020">2020</time></p>
+  
+      </div>
+  </footer>
+
+      <!-- script -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+
