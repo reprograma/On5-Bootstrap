@@ -1,23 +1,32 @@
 .background {
-   background-color:#7d7270; 
+   background-color: lightblue; 
 }
+
 
 .imagem-carrossel {
     object-fit: cover;
-    height: 400px;
+    height: auto;
+    opacity: 40%;
+}
+h5{
+    color:black;
+    font-weight: bold;
 }
 
+p{
+    color: black;
+}
 .fonte-texto {
     font-family: 'McLaren', cursive;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    color:darkred;
+    color:black;
 }
 
 .fonte-titulo-card {
     font-family: 'McLaren', cursive;
     font-size: 20px;
-    color: darkblue;
+    color: black;
 }
 
 .fonte-texto-card-footer {
@@ -35,4 +44,4 @@
 
 #footer-redes {
     font-size: 2em;
-} 
+}
