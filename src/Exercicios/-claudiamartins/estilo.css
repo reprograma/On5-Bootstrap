@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poller One', cursive;
+    margin: none;
+    background-image: url(./img/star-wars-estrela.png);
+}
+.navbar{
+    background-color: black;
+    font-size: 20px;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+.item{
+    font-family: 'Poller One', cursive;
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-left: 25px;
+}
+
+.item:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+.filmes{
+    color: white;
+}
+
+.margin{
+    padding-top: 30px;
+}
+
+.dropdown-item:hover:hover{
+    color: yellow;
+}
+
+.carouselExampleCaptions{
+    color: white;
+    font-family: 'Poller One', cursive;
+}
+
+.d-block{
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-item{
+    font-size: x-large;
+}
+

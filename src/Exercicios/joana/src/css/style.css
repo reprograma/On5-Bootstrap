@@ -1,0 +1,52 @@
+.background {
+   background-color:#7d7270; 
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+@font-face {
+    src: url(fonts/IndieFlower-Regular.ttf);
+    font-family: 'Indie Flower';
+    font-weight: normal;
+}
+
+.fonte-texto {
+    font-family: 'Indie Flower';
+    font-weight: 800;
+    font-style: normal;
+    color:rgb(92, 58, 172);
+}
+
+.dropdown-menu{ 
+    font-family: 'Indie Flower';
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.fonte-titulo-card {
+    font-family: 'Indie Flower';
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(61, 61, 180);
+}
+
+.fonte-texto-card-footer {
+    font-family: 'Indie Flower';
+    font-weight: 800;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: rgb(61, 61, 180);;
+}
+
+#footer-redes {
+    font-size: 2em;
+} 
