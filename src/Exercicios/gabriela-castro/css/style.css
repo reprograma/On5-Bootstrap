@@ -1,0 +1,52 @@
+.background {
+   background-color:#7d7270;
+   /* background-color:#fff;  */
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: darkred;
+} */
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+#fonte-color {
+    color: darkred;
+}
+
+.fonte-texto {
+    font-family: 'McLaren', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkred;
+    /* color: rgb(99, 133, 247); */
+}
+
+#img-logo {
+    width: 100px;
+}
+
+.fonte-titulo-card {
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: 'McLaren', cursive;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: darkblue;
+}
+
+#footer-redes {
+    font-size: 2em;
+}
