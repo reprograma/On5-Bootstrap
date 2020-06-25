@@ -1,0 +1,42 @@
+.background {
+   background-color: gainsboro; 
+}
+
+header a{
+    color: teal;
+}
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-texto {
+    font-family: 'McLaren', cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: teal;
+}
+
+.fonte-titulo-card {
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    color: teal;
+}
+
+.fonte-texto-card-footer {
+    font-family: 'McLaren', cursive;
+    font-size: 15px;
+}
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: gainsboro;
+}
+
+#footer-redes {
+    font-size: 2em;
+} 
+
