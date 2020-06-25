@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <title>Plants</title>
+</head>
+
+<body>
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg background p-5 m-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarNavDropdown"
+                aria-controls="navBarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="mobile-menu" src="./assets/menu.svg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarNavDropdown">
+                <a class="navbar-brand font-nav-title" href="#">Plants</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navBarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fonte-texto" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fonte-texto" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to
+                                prepare?</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Herbal Teas</a></li>
+                                <li><a class="dropdown-item" href="#">Decotions</a></li>
+                                <li><a class="dropdown-item" href="#">Syrups</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fonte-texto" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">History</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Patchouli</a></li>
+                                <li><a class="dropdown-item" href="#">Equinaceae</a></li>
+                                <li><a class="dropdown-item" href="#">Tea Tree</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        <!--END NAVBAR-->
+    </header>
+
+    <main>
+        <section class="row m-0 mt-3 p-0">
+            <!--CAROUSEL-->
+            <div id="carouselExampleIndicators" class="carousel slide fonte-texto col-md-6 carousel-fade m-0 p-0"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: auto; max-width: 150%;">
+                        <img class="d-block w-100 imagem-carrossel " src="./assets/Slide 1.JPG" alt="Primeiro slide">
+                        <div class="carousel-caption d-none d-md-block background-carousel">
+                            <h5 class="text-uppercase font-title-card-article">Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestias, expedita ea
+                                accusantium labore!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./assets/Slide 2.JPG" alt="Segundo slide">
+                        <div class="carousel-caption d-none d-md-block background-carousel">
+                            <h5 class="text-uppercase font-title-card-article">Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestias, expedita ea
+                                accusantium labore!</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./assets/Slide 3.JPG" alt="Terceiro slide">
+                        <div class="carousel-caption d-none d-md-block background-carousel">
+                            <h5 class="text-uppercase font-title-card-article">Lorem ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestias, expedita ea
+                                accusantium labore!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            <!--END CAROUSEL-->
+
+            <!--CARDS & HISTORY-->
+            <section class="col-md-6 d-flex flex-wrap m-0 p-0">
+                <!--CARDS-->
+                <div class="d-flex m-0 p-0">
+                    <div class="col-3 p-0">
+                        <div class="card background-card border-card">
+                            <img src="./assets/beverage.svg" class="card-img-top imagem-card" alt="tea icon">
+                            <div class="card-body">
+                                <h5 class="card-title font-title-card text-nowrap">Herbal Teas</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-0">
+                        <div class="card background-card border-card">
+                            <img src="./assets/steam.svg" class="card-img-top imagem-card" alt="boilig pan">
+                            <div class="card-body">
+                                <h5 class="card-title font-title-card text-nowrap">Decotions</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-0">
+                        <div class="card background-card border-card">
+                            <img src="./assets/syrup.svg" class="card-img-top imagem-card" alt="syrup icon">
+                            <div class="card-body">
+                                <h5 class="card-title font-title-card text-nowrap">Syrups</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 p-0">
+                        <div class="card background-card border-card">
+                            <img src="./assets/more.svg" class="card-img-top imagem-card" alt="elipsis icon">
+                            <div class="card-body">
+                                <h5 class="card-title font-title-card text-nowrap">More</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END CARDS-->
+
+                <!--ARTICLES-->
+                <div class="d-flex m-0 p-0 pl-1 row">
+                    <div class="card col-md-6 p-0 m-0 border-card-article">
+                        <img src="./assets/dried_herbs.jpg" class="card-img-top border-card-article imagem-card-article"
+                            alt="woman hanging dried herbs">
+                        <div class="card-body background-card-article font-card-article">
+                            <h5 class="card-title text-uppercase font-title-card-article">Drying Herbs</h5>
+                            <p class="card-text d-inline-block text-truncate">How to dry herbs in your home.</p>
+                            <a href="#" class="btn btn-outline-light d-flex justify-content-center text-uppercase">See
+                                more</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-6 p-0 m-0 border-card-article">
+                        <img src="./assets/enfleurage.jpg" class="card-img-top border-card-article imagem-card-article"
+                            alt="enfleurage process">
+                        <div class="card-body background-card-article font-card-article">
+                            <h5 class="card-title text-uppercase font-title-card-article">Enfleuráge</h5>
+                            <p class="card-text d-inline-block text-truncate" style="max-width: 200px;">A french method
+                                that consists in extract essencial oils of petals.</p>
+                            <a href="#" class="btn btn-outline-light d-flex justify-content-center text-uppercase">See
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END ARTICLES-->
+            </section>
+            <!--END CARDS & HISTORY-->
+        </section>
+    </main>
+
+
+
+    <!--MODAL-->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contatos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!--FORM-->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"></input>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de comentário</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Dúvidas</option>
+                                <option>Sugestões</option>
+                                <option>Elogios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Escreva seu comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Enviar</button>
+                    </div>
+                    <!--END FORM-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END MODAL-->
+
+    <footer class="container-fluid">
+        <div class="row justify-content-center m-1" id="footer-redes">
+            <div class="m-5 fab fa-facebook-square"><i></i></div>
+            <div class="m-5 fab fa-twitter"></div>
+            <div class="m-5 fab fa-instagram"></div>
+        </div>
+        <div>
+            <li class="row justify-content-center">
+                <a class="d-flex flex-row align-items-center font-card-article" href="#" data-toggle="modal"
+                    data-target="#modalContato">Contact Us</a>
+            </li>
+        </div>
+        <div class="text-center fonte-texto-footer pt-1">
+            <p>Copyright @ Muriel <time datetime="2020">2020</time></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
