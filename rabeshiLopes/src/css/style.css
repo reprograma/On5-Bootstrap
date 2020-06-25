@@ -1,0 +1,41 @@
+.background {
+   background-color: grey 
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.fonte-texto {
+    font-family: monospace;
+    color: white;
+}
+
+.fonte-titulo-card {
+    font-family: monospace
+    font-size: 20px;
+    color: black;
+}
+
+.fonte-texto-card-footer {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.text-center {
+    color: black;
+}
+
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: white;
+}
+
+#footer-redes {
+    font-size: 2em;
+}
