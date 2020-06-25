@@ -1,5 +1,5 @@
 .background {
-   background-color:#7d7270; 
+   background-color:rgb(168, 164, 164); 
 }
 
 .imagem-carrossel {
@@ -11,7 +11,15 @@
     font-family: 'McLaren', cursive;
     font-weight: 400;
     font-style: normal;
-    color:darkred;
+    color:rgb(75, 110, 206);
+}
+.img-logo{
+    width: 100px;
+}
+#video{
+   width: 500px;
+   margin: 0 auto;
+   padding-top: 20px;
 }
 
 .fonte-titulo-card {
