@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <!-- META TAGS -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css">
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+        <title>Viajando com Luciana</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="nav-nav" class="navbar fixed-top navbar-expand-lg background">
+                <img class="airplane" src="assets/travel.png">
+                <a class="navbar-brand nav-fonte-texto" href="#">Viajando com Luciana</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"><img src="assets/menu.svg"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-fonte-texto" href="#">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-fonte-texto" href="#">Roteiros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-fonte-texto" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Noruega</a></li>
+                                <li><a class="dropdown-item" href="#">Suécia</a></li>
+                                <li><a class="dropdown-item" href="#">Islândia</a></li>
+                                <li><a class="dropdown-item" href="#">Finlândia</a></li>
+                                <li><a class="dropdown-item" href="#">Canadá</a></li>
+                                <li><a class="dropdown-item" href="#">Rússia</a></li>
+                                <li><a class="dropdown-item" href="#">Estados Unidos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-fonte-texto" href="#" data-toggle="modal"
+                                data-target="#modalContato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <!-- FORMULARIO DE CONTATO -->
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Selecione o tipo de comentário</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Dúvidas</option>
+                                    <option>Sugestōes</option>
+                                    <option>Elogios</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Escreva aqui seu comentário</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+
+                <!--CARROSSEL-->
+                <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 image-carousel" src="assets/slide_iceland.jpg" alt="Primeiro Slide">
+                            <div class="carousel-caption d-none d-md-block text-carousel">
+                                <h5>Islândia</h5>
+                                <p>O país mais seguro do mundo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-flex w-100 image-carousel" src="assets/slide-norway.jpg" alt="Segundo Slide">
+                            <div class="carousel-caption d-none d-md-block text-carousel">
+                                <h5>Noruega</h5>
+                                <p>O país mais desenvolvido do mundo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 image-carousel" src="assets/slide-russia.jpg" alt="Terceiro Slide">
+                            <div class="carousel-caption d-none d-md-block text-carousel">
+                                <h5>Rússia</h5>
+                                <p>O país mais extenso do mundo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+
+                <article>
+                    <h1 class="text-center fonte-texto pt-5"> Especial Aurora Boreal</h1>
+                    <p class="text-center text-secundary fonte-texto">Veja tudo sobre uma das paisagens mais exuberantes do mundo em três destinos diferentes!
+                    </p>
+                    <p class="text-center text-secundary fonte-texto pb-5">Noruega, Groenlândia ou Finlândia... Um universo pouco explorado!</p>
+                </article>
+                
+            </section>
+            <section>
+                <div class="container-fluid bg-white">
+                    <div class="row justify-content-around cards">
+                        <div class="card borda-card m-3" style="width: 18rem">
+                            <img class="card-img-top imagem-card" src="assets/norway.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title fonte-titulo-card ">Noruega</h5>
+                                <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                <a href="#" class="btn btn-dark fonte-texto-card-footer">Ver mais</a>
+                            </div>
+                        </div>
+                        <div class="card borda-card m-3" style="width: 18rem">
+                            <img class="card-img-top imagem-card" src="assets/green.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title fonte-titulo-card ">Groenlândia</h5>
+                                <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                <a href="#" class="btn btn-dark fonte-texto-card-footer">Ver mais</a>
+                            </div>
+                        </div>
+                        <div class="card borda-card m-3" style="width: 18rem">
+                            <img class="card-img-top imagem-card" src="assets/finlandia.jpg" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title fonte-titulo-card ">Finlândia</h5>
+                                <p class="card-text fonte-texto-card-footer">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                                <a href="#" class="btn btn-dark fonte-texto-card-footer">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        
+        <footer class="container-fluid pt-5 footer">
+            <div>
+                <p class="text-center fonte-texto-card-footer">Minhas redes sociais</p>
+            </div>
+            <div class="row justify-content-center m=1" id="footer-redes">
+                <div class="m-5 fab fa-facebook-square"></a></div>
+                <div class="m-5 fab fa-twitter"><i></i></div>
+                <div class="m-5 fab fa-instagram"><i></i></div>
+             </div>
+            <div class="text-center fonte-texto-footer pt-1">
+                <p>Copyright @ lucianahb, <time datetime="2020">2020</time></p>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

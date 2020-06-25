@@ -1,0 +1,82 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+    
+.airplane {
+    padding-left: 70px;
+    height: 30px;
+}
+
+.background {
+    background-color: #d1d6de;
+    opacity: 80%;
+}
+    
+.navbar-brand {
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.nav-fonte-texto {
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(7, 71, 100);
+}
+
+ul li {
+    padding-right: 70px;
+}
+
+.fonte-texto {
+    color: #074764;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-carousel {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.image-carousel {
+    object-fit: cover;
+    height: 400px;
+}
+
+.card {
+    text-align: center;
+}
+
+.btn {
+    background-color: #074764;
+    border: none;
+}
+
+.fonte-titulo-card {
+    font-size: 20px;
+    color: #074764;
+}
+
+.fonte-texto-card-footer {
+    font-size: 15px;
+}
+
+.fonte-texto-footer p {
+    margin: 0;
+}
+
+.imagem-card {
+    object-fit: cover;
+    height: 286px;
+}
+
+.footer {
+    background-color: #d1d6de;
+    padding-bottom: 10px;
+}
+
+#footer-redes {
+    font-size: 2em;
+}
