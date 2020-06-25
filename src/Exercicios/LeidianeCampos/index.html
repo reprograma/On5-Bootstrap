@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta TAGs -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>A pequena via | Santa Teresinha do Menino Jesus</title>
+</head>
+
+<body>
+<header>
+    
+<!--Navbar-->
+
+    <nav id="nav-nav" class="navbar fixed-top navbar-expand-lg background navbar-light">
+        <a href="#"><img class="img-logo" src="./src/assets/Logo transparent.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link navbar-fonte" href="#biografia">Biografia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-fonte" href="#frases">Frases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-fonte" href="#video"">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-fonte" href="#" data-toggle="modal"
+                    data-target="#modalContato">Envie seu depoimento</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!--Carrossel-->
+
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 imagem-carrossel-esquerda" src="./src/assets/Slide_1.JPG" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="texto-cursivo">Infância</h5>
+                            <p> Teresa estudou em casa até os oito anos e meio</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-flex w-100 imagem-carrossel-direita" src="./src/assets/Slide_2.JPG" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="texto-cursivo">Juventude</h5>
+                            <p>Em 1888, aos 15 anos, Teresa ingressou no Carmelo de Liseux</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel-esquerda" src="./src/assets/Slide_3.JPG" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="texto-cursivo">Carmelo</h5>
+                            <p>Santa Teresinha se tornou a padroeira das missões sem nunca ter saído do Carmelo</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel-direita" src="./src/assets/Slide_4.JPG" alt="Quarto Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="texto-cursivo">Obras</h5>
+                            <p>Santa Terezinha escreveu três manuscritos a pedido de sua irmã Paulina</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="biografia">
+            <div class="box-biografia pt-5">
+                <article class="box-biografia-textos">
+                    <h1 class="text-left título-cursivo pt-5"> Biografia</h1>  
+                    <p class="text-justify text-secundary fonte-texto pt-3 pb-2">A santa de hoje nasceu em Alençon (França) em 1873 e morreu no ano de 1897. Santa Teresinha não só descobriu que no coração da Igreja sua vocação era o amor, como também sabia que o seu coração – e o de todos nós – foi feito para amar. Nascida de família modesta e temente a Deus, seus pais (Luís e Zélia) tiveram oito filhos antes da caçula Teresa: quatro morreram com pouca idade, restando em vida as quatro irmãs da santa (Maria, Paulina, Leônia e Celina). Teresinha entrou com 15 anos no Mosteiro das Carmelitas em Lisieux, com a autorização do Papa Leão XIII. Sua vida se passou na humildade, simplicidade e confiança plena em Deus.</p>
+
+                    <p class="text-justify text-secundary fonte-texto pb-2">Todos os gestos e sacrifícios, do menor ao maior, oferecia a Deus pela salvação das almas e na intenção da Igreja. Santa Teresinha do Menino Jesus e da Sagrada Face esteve como criança para o Pai, livre, igual a um brinquedo aos cuidados do Menino Jesus e, tomada pelo Espírito de amor, que a ensinou um lindo e possível caminho de santidade: infância espiritual.</p>
+
+                    <p class="text-justify text-secundary fonte-texto pb-2">O mais profundo desejo do coração de Teresinha era ter sido missionária “desde a criação do mundo até a consumação dos séculos”. Sua vida nos deixou como proposta, selada na autobiografia “História de uma alma” e, como intercessora dos missionários sacerdotes e pecadores que não conheciam a Jesus, continua ainda hoje, vivendo o Céu, fazendo o bem aos da terra.</p>
+                        
+                    <p class="text-justify text-secundary fonte-texto pb-2">Morreu de tuberculose, com apenas 24 anos, no dia 30 de setembro de 1897 dizendo suas últimas palavras: “Oh!…amo-O. Deus meu,…amo-Vos!”</p>
+                        
+                    <p class="text-justify text-secundary fonte-texto pb-2">Após sua morte, aconteceu a publicação de seus escritos. A chuva de rosas, de milagres e de graças de todo o gênero. A beatificação em 1923, a canonização em 1925 e declarada “Patrona Universal das Missões Católicas” em 1927, atos do Papa Pio XI. E a 19 de outubro de 1997, o Papa João Paulo II proclamou Santa Teresa do Menino Jesus e da Sagrada Face doutora da Igreja.</p>
+                        
+                    <p class="text-justify text-secundary fonte-texto pb-2">Santa Teresinha do Menino Jesus, rogai por nós!</p>
+                    
+                    <p class="text-justify text-secundary fonte-texto pb-5">(Fonte: Canção Nova)</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+<!--Cards-->
+
+<section id="frases" class="background-cards pt-5 pb-5">
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row justify-content-around">
+            <div class="card m-3" style="width: 18rem">
+                <img class="card-img-top imagem-card" src="./src/assets/Card-1.jpg"
+                 alt="Imagem de capa do card" >
+                 <div class="card-body">
+                     <h5 class="card-title fonte-titulo-card">vocação</h5>
+                     <p class="card-text fonte-texto text-center">Compreendi que o Amor englobava todas as vocações, que o Amor era tudo.</p>
+                 </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+                <img class="card-img-top imagem-card" src="./src/assets/Card-2.jpg"
+                 alt="Imagem de capa do card" >
+                 <div class="card-body">
+                     <h5 class="card-title fonte-titulo-card">a vida é um sonho</h5>
+                     <p class="card-text fonte-texto text-center">Só temos o curto instante da vida para dá-lo ao Bom Deus.</p>
+                 </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+                <img class="card-img-top imagem-card" src="./src/assets/Card-3.jpg"
+                 alt="Imagem de capa do card" >
+                 <div class="card-body">
+                     <h5 class="card-title fonte-titulo-card">pequenez</h5>
+                     <p class="card-text fonte-texto text-center">Eu sou pequena demais para subir a rude escada da perfeição. Posso, apesar de minha pequenez, aspirar à santidade.</p>
+                 </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+                <img class="card-img-top imagem-card" src="./src/assets/Card-4.jpg"
+                 alt="Imagem de capa do card" >
+                 <div class="card-body">
+                     <h5 class="card-title fonte-titulo-card">perfeição</h5>
+                     <p class="card-text fonte-texto text-center">A perfeição consiste em fazer sua vontade, em ser aquilo que Ele quer que sejamos.</p>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="video" class="box-video pt-5 pb-5">
+    <div class="video">
+        <div class="video-texto">
+            <p> Assista ao filme que conta a história de Santa Teresinha:</p>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tiinM-8EYfw?rel=0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!--Modal-->
+<div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Depoimento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- FORM -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de
+                                depoimento</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Como conheceu Sta Teresinha</option>
+                                <option>Milagres de Intercessão</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                depoimento</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-secondary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="container-fluid pt-2 pb-2 background-cards">
+    <div class="row justify-content-center m-1 footer-redes">
+        <a href="https://www.facebook.com/sanctuairetheresedelisieux" target="_blank"><div class="m-3 fab fa-facebook-square footer-redes-icon"><i></i></div></a>
+        <a href="https://twitter.com/sanctulisieux" target="_blank"><div class="m-3 fab fa-twitter footer-redes-icon"><i></i></div></a>
+        <a href="https://www.instagram.com/saintthereseoflisieux/" target="_blank"><div class="m-3 fab fa-instagram footer-redes-icon"><i></i></div></a>
+    </div>
+
+    <div class="text-center fonte-texto-footer pt-1">
+        <p class="copyright"> Copyright @ Leidiane Campos <time datetime="2020">2020</time></p>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
