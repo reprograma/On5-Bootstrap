@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navbar*/
+
+.navbar-custom {}
+
+.bg-dark {
+    background-color: #7d7270!important;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 60vh;
+}
+
+.navbar-custom .navbar-brand {
+    font-family: 'McLaren', cursive;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+}
+
+.card-img-top {
+    height: 348px;
+    width: 348px;
+    /*funcionava antes de mudar de pasta*/
+}
+
+
+/*Content*/
